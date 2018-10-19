@@ -20,18 +20,18 @@
     </nav>
   </header>
 
-  <main>
+  <main itemscope itemtype="https://schema.org/Corporation">
     <h1>Contact</h1>
 
-    <strong>Robot Parts Co.</strong>
+    <strong itemprop="name">Robot Parts Co.</strong>
 
-    <address>
-      <br>1234 Robot Lane
-      <br>Robot Mega City 1, RoboStateB, RoboCountry211
-      <br>11001010100101001
+    <address itemprop="address" itemscope itemtype="https://schema.org/PostalAdress">
+      <br><span itemprop="streetAdress">1234 Robot Lane</span>
+      <br><span itemprop="addressLocality">Robot Mega City 1</span>, <span itemprop="addressRegion">RoboStateB</span>, <span itemprop="addressCountry">RoboCountry211</span>
+      <br><span itemprop="postalCode">11001010100101001</span>
     </address>
 
-    <a href="mailto:parts@robotparts.co">parts@robotparts.co</a>
+    <a itemprop="email" href="mailto:parts@robotparts.co">parts@robotparts.co</a>
   </main>
 
   <footer>
